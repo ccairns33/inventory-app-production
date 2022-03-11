@@ -65,9 +65,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![InevntoryApp Screen Shot][product-screenshot]]
-[![InevntoryApp Screen Shot][product-screenshot2]]
-[![InevntoryApp Screen Shot][product-screenshot3]]
+![InevntoryApp Screen Shot][product-screenshot]
+![InevntoryApp Screen Shot][product-screenshot2]
+![InevntoryApp Screen Shot][product-screenshot3]
 
 An inventory management app for an imaginary cafe/confectionery.
 The app has different categories and items, so when the user goes to the home-page they can choose a category to view, and then get a list of every item in that category. 
