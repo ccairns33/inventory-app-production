@@ -1,0 +1,21 @@
+<div class="main-content_wrapper">
+    <div class="products_header">
+        <a class="back-to-home"href="/"> <i class="fas fa-arrow-left"></i>Back to home</a>
+        <a class="add-a-product" href="/products/add">Add a Product</a>
+    </div>
+    <span class="products_title">{{title}}</span>
+    <div class="product_list">
+        {{#each products}}
+            <div class="product_individual">
+                <a href="/products/{{this._id}}">
+                    <img class= "product_image"src="/images/{{this.thumbnail}}" alt=""/>
+                    <ul class="product_details">
+                        <li class="product_name_price">{{this.name}} <span class="product_price">${{this.price}}</span></li>
+                        {{!-- <li class="product_description">{{this.description}}</li> --}}
+                        {{!-- <li class="product_quantity">{{this.quantity}}</li> --}}
+                    </ul>
+                </a>
+            </div>
+        {{/each}}
+    </div>
+</div>
